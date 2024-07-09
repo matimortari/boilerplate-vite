@@ -20,5 +20,4 @@ temp/
 *.so
 *.swp
 *.ini
-.env
-.env.local
+.env*
