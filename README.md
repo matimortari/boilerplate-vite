@@ -1,15 +1,13 @@
 # Next.js Boilerplate
 
-Simple setup for starting a Next.js-powered website.
+Simple setup for starting a Vite-powered website.
 
 ### Features
 
-- Next.js App Router
+- Vite build tool
+- MERN stack support
 - TypeScript
 - Tailwind CSS
-- shadcn/ui support
-- NextAuth for authentication
-- Prisma ORM for integration with PostgreSQL database
 - Prettier & ESLint support
 
 ## Getting Started
