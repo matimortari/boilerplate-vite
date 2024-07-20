@@ -1,9 +1,9 @@
 dist/
 build/
 out/
-.next/
 coverage/
 test/
+tests/
 node_modules/
 .vercel/
 .vscode/
