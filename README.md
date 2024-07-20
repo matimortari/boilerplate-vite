@@ -1,10 +1,10 @@
-# Next.js Boilerplate
+# Next.js Boilerplate 📚🚀
 
 Simple setup for starting a Vite-powered website.
 
 ### Features
 
-- Vite build tool
+- Vite bundler
 - MERN stack support
 - TypeScript
 - Tailwind CSS
