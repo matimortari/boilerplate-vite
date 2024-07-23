@@ -20,26 +20,18 @@ const config = {
 					DEFAULT: "var(--secondary)",
 					foreground: "var(--secondary-foreground)",
 				},
-				muted: {
-					DEFAULT: "var(--muted)",
-					foreground: "var(--muted-foreground)",
-				},
 				accent: {
 					DEFAULT: "var(--accent)",
 					foreground: "var(--accent-foreground)",
+				},
+				muted: {
+					DEFAULT: "var(--muted)",
+					foreground: "var(--muted-foreground)",
 				},
 				destructive: {
 					DEFAULT: "var(--destructive)",
 					foreground: "var(--destructive-foreground)",
 				},
-				input: "var(--input)",
-				border: "var(--border)",
-				ring: "var(--ring)",
-			},
-			borderRadius: {
-				lg: "var(--radius)",
-				md: "calc(var(--radius) - 2px)",
-				sm: "calc(var(--radius) - 4px)",
 			},
 		},
 	},

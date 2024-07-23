@@ -12,8 +12,8 @@ Simple setup for starting a Vite-powered website.
 
 ## Getting Started
 
-1. Clone this repository inside the project folder: `git clone https://github.com/w11dcard/next-boilerplate .`
-2. Install dependencies for the project: `npm install`
+1. Clone this repository inside the project folder: `git clone https://github.com/w11dcard/boilerplate-vite .`
+2. Install dependencies: `npm install`
 
 ## 📬 Contact
 
