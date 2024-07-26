@@ -7,6 +7,7 @@
 		"dev": "vite",
 		"build": "tsc -b && vite build",
 		"start": "vite preview",
+		"serve": "tsx watch server.ts",
 		"test": "playwright test",
 		"format": "prettier --write . && eslint ."
 	},
@@ -36,6 +37,7 @@
 		"prettier": "3.2.5",
 		"prettier-plugin-tailwindcss": "0.5.14",
 		"tailwindcss": "3.4.1",
+		"tsx": "4.16.2",
 		"typescript": "5",
 		"vite": "5.2.0"
 	}
