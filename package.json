@@ -4,10 +4,9 @@
 	"version": "0.1.0",
 	"type": "module",
 	"scripts": {
-		"dev": "vite",
+		"dev": "concurrently \"vite\" \"tsx watch server.ts\"",
 		"build": "tsc -b && vite build",
-		"start": "vite preview",
-		"serve": "tsx watch server.ts",
+		"start": "concurrently \"vite preview\" \"tsx watch server.ts\"",
 		"test": "playwright test",
 		"format": "prettier --write . && eslint ."
 	},
@@ -28,6 +27,7 @@
 		"@types/react-dom": "18",
 		"@typescript-eslint/eslint-plugin": "7.14.1",
 		"@typescript-eslint/parser": "7.14.1",
+		"concurrently": "8.2.2",
 		"dotenv": "16.4.5",
 		"dotenv-cli": "7.4.2",
 		"eslint": "8",
