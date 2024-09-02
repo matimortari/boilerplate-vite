@@ -4,9 +4,9 @@
 	"version": "0.1.0",
 	"type": "module",
 	"scripts": {
-		"dev": "concurrently \"vite\" \"tsx watch server.ts\"",
+		"dev": "concurrently \"vite\" \"tsx watch ./src/lib/server.ts\"",
 		"build": "tsc -b && vite build",
-		"start": "concurrently \"vite preview\" \"tsx watch server.ts\"",
+		"start": "concurrently \"vite preview\" \"tsx watch ./src/lib/server.ts\"",
 		"test": "playwright test",
 		"format": "prettier --write . && eslint ."
 	},

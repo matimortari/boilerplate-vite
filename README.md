@@ -1,20 +1,36 @@
 # Vite Boilerplate 🚀
 
-Quickstart for a Vite-powered website, with MERN stack integration.
+A boilerplate for building a full-stack web application using Vite and the MERN stack.
 
-## Features
+## Key Features
 
-- Vite for fast development and bundling.
-- MERN stack integration.
+- Vite with React.
 - TypeScript.
 - Tailwind CSS.
-- Playwright for testing.
+- Express.js for API routing.
+- MongoDB & Mongoose for database management.
+- Playwright for integration & end-to-end testing.
 - Prettier & ESLint support.
 
 ## Getting Started
 
-1. Clone this repository inside the project folder: `git clone https://github.com/matimortari/boilerplate-vite .`
-2. Install dependencies: `npm install`
+1. Run the following commands on your shell:
+
+   ```bash
+   git clone https://github.com/matimortari/boilerplate-vite .
+   ```
+
+2. Install necessary dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Run the project in development mode:
+
+   ```bash
+   npm run dev
+   ```
 
 ## 📬 Contact
 
