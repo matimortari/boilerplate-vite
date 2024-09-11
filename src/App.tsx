@@ -5,9 +5,9 @@ export default function Home() {
 	return (
 		<>
 			<Navbar />
-			<main className="flex h-screen flex-col items-center justify-center">
-				<strong className="text-4xl">Hello World!</strong>
-			</main>
+			<div className="m-8 flex h-screen flex-col items-center">
+				<strong className="text-3xl">Hello World!</strong>
+			</div>
 			<Footer />
 		</>
 	)

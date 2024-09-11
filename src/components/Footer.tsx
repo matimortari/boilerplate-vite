@@ -3,7 +3,7 @@ import { Icon } from "@iconify/react"
 export default function Footer() {
 	return (
 		<footer className="flex flex-col items-center justify-between md:flex-row">
-			<div className="m-4 font-light text-muted-foreground">
+			<div className="m-2 font-light text-muted-foreground">
 				<p>© 2024 Matheus Mortari. All rights reserved.</p>
 			</div>
 
