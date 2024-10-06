@@ -10,7 +10,7 @@ A boilerplate for building a full-stack web application using Vite and the MERN 
 - Express.js for API routing.
 - MongoDB & Mongoose for database management.
 - Vitest for unit & integration testing.
-- Playwright for integration & end-to-end testing.
+- Playwright for end-to-end testing.
 - Prettier & ESLint support.
 
 ## Getting Started
